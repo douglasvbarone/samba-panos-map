@@ -23,7 +23,7 @@ LUFRPT1B...ASDFerjbyr0=
 
 This will map current logged users to the firewall. You can verify it in the firewall monitor.
 
-## Scheduling a crontab
+## Scheduling Cron jobs
 
 Now, you need to schedule the execution of the script. I recommended 10 seconds interval. The easy way of doing it is putting 6 entries on `/etc/crontab` (not so pretty... But...):
 
