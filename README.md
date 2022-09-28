@@ -30,9 +30,9 @@ Now, you need to schedule the execution of the script. I recommended 10 seconds 
 ```
 # /etc/crontab
 * * * * *  root    bash /home/root/samba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=
-* * * * *  root    ( sleep 10; bash /home/rootsamba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
-* * * * *  root    ( sleep 20; bash /home/rootsamba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
-* * * * *  root    ( sleep 30; bash /home/rootsamba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
-* * * * *  root    ( sleep 40; bash /home/rootsamba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
-* * * * *  root    ( sleep 50; bash /home/rootsamba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
+* * * * *  root    ( sleep 10; bash /home/root/samba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
+* * * * *  root    ( sleep 20; bash /home/root/samba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
+* * * * *  root    ( sleep 30; bash /home/root/samba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
+* * * * *  root    ( sleep 40; bash /home/root/samba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
+* * * * *  root    ( sleep 50; bash /home/root/samba-panos-map/smb-pan.sh 192.168.0.2 LUFRPT1B...ASDFerjbyr0=)
 ```
