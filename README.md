@@ -2,7 +2,7 @@
 
 This script maps Samba logged in users to a Palo Alto Firewall using the XML API.
 
-Tested with Samba version 4.13.17-Ubuntu and PAN OS 8.1.0.
+Tested with Samba version 4.13.17-Ubuntu and PAN OS versions 8.1.0 and 10.2.3-h2.
 
 ## Instructions
 
